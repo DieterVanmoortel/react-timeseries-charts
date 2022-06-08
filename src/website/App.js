@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 import "./App.css";
 
@@ -64,146 +64,21 @@ class App extends Component {
                         <div className="sidebar-heading">GUIDE</div>
 
                         <ul className="nav nav-sidebar">
-                            <li>
-                                <Link to="/guide/intro">1. Introduction</Link>
-                            </li>
-                            <li>
-                                <Link to="/guide/start">2. Getting started</Link>
-                            </li>
-                            <li>
-                                <Link to="/guide/style">3. Styling</Link>
-                            </li>
-                            <li>
-                                <Link to="/guide/annotations">4. Annotations</Link>
-                            </li>
+                            <li>{/*<Link to="/guide/intro">1. Introduction</Link>*/}</li>
+                            <li>{/*<Link to="/guide/start">2. Getting started</Link>*/}</li>
+                            <li>{/*<Link to="/guide/style">3. Styling</Link>*/}</li>
+                            <li>{/*<Link to="/guide/annotations">4. Annotations</Link>*/}</li>
                         </ul>
 
                         <div className="sidebar-heading">Examples</div>
 
                         <ul className="nav nav-sidebar">
                             <li>
-                                <Link to="/example/realtime">Realtime example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/baselines">Baselines demo</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/barchart">Simple BarChart example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/continents">Stacked AreaCharts</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/trend">Trend example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/currency">Currency example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/cycling">Cycling example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/ddos">DDoS attack example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/outages">Outage events</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/stockchart">Stockchart example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/traffic">Network traffic</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/weather">Weather example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/wind">Scatter example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/volume">Volume example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/nyc">Boxplot example</Link>
-                            </li>
-                            <li>
-                                <Link to="/example/climate">Climate example</Link>
+                                <a href="/example/cycling">Cycling example</a>
                             </li>
                         </ul>
 
                         <div className="sidebar-heading">API</div>
-
-                        <ul className="nav nav-sidebar">
-                            <li>
-                                <Link to="/api/charts/AreaChart">AreaChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/BandChart">BandChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/BarChart">BarChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/Baseline">Baseline</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/BoxChart">BoxChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/Brush">Brush</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/ChartContainer">ChartContainer</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/ChartRow">ChartRow</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/Charts">Charts</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/EventChart">EventChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/EventMarker">EventMarker</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/LabelAxis">LabelAxis</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/Legend">Legend</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/LineChart">LineChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/MultiBrush">MultiBrush</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/Resizable">Resizable</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/ScatterChart">ScatterChart</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/TimeAxis">TimeAxis</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/TimeMarker">TimeMarker</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/TimeRangeMarker">TimeRangeMarker</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/ValueAxis">ValueAxis</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/ValueList">ValueList</Link>
-                            </li>
-                            <li>
-                                <Link to="/api/charts/YAxis">YAxis</Link>
-                            </li>
-                        </ul>
 
                         <div className="sidebar-heading">Links</div>
 

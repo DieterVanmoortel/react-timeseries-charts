@@ -27,7 +27,7 @@ export default createReactClass({
 
     fetchMarkdownForProps(props) {
         window.scrollTo(0, 0);
-        const exampleName = props.params.example;
+        const exampleName = "cycling";
         const markdownFile = Examples[`${exampleName}_docs`];
         fetch(markdownFile)
             .then(response => {
@@ -65,7 +65,7 @@ export default createReactClass({
     },
 
     render() {
-        const exampleName = this.props.params.example;
+        const exampleName = "cycling";
         const ExampleMetaData = Meta[exampleName];
         const Component = Examples[exampleName];
         const sourceCode = `https://github.com/esnet/react-timeseries-charts/tree/master/src/website/packages/charts/examples/${exampleName}/Index.js`;
